@@ -1,0 +1,26 @@
+# 重型依赖：文本挖掘 / 主题建模 / 深度学习
+# 体积较大，按需安装：pip install -r requirements-nlp.txt
+torch>=2.0
+transformers>=4.30
+sentence-transformers>=2.2
+bertopic>=0.16
+umap-learn>=0.5
+hdbscan>=0.8
+
+# 传统主题模型与可视化
+gensim>=4.3
+pyLDAvis>=3.4
+wordcloud>=1.9
+
+# 文档解析
+python-docx>=1.1
+pdfplumber>=0.10
+
+# 情感分析 / LLM
+snownlp>=0.12
+zhipuai>=2.0
+langchain>=0.1
+langchain-community>=0.0.20
+
+# 深度学习（TensorFlow 1.x 兼容模式）
+tensorflow>=2.15

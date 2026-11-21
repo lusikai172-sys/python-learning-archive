@@ -1,0 +1,51 @@
+# 虚拟环境：绑定绝对路径，迁移后必须重建
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# IDE / Jupyter
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# 运行产物
+outputs/
+*.tfevents.*
+events.out.tfevents.*
+*/tmp/summary/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地配置与密钥（务必不要提交）
+.env
+*.key
+*.pem
+
+# 99_archive：重复压缩包、失效的 IDE 配置、占位文件等，仅本地留存
+99_archive/
+
+# 王者荣耀皮肤图：版权归游戏厂商，且可由 day03/01-王者荣耀.py 重新抓取（约 37 MB）
+01_coursework/data-analysis-practice/day03/*.jpg
+
+# 以下是 tools/simulate_data.py 生成的合成数据，按需本地生成，不提交
+01_coursework/data-warehouse/data/金融产品购买数据.xlsx
+01_coursework/data-warehouse/data/中医辨证.xlsx
+01_coursework/data-warehouse/data/行业收入表-餐饮服务.xlsx
+01_coursework/data-warehouse/data/客户价值数据表.xlsx
+01_coursework/data-warehouse/data/信用卡精准营销模型.xlsx
+02_practice/visualization/data/train_new2.csv
+02_practice/visualization/data/中国地震数据（2012-2024）_ppman.xlsx
+03_research/course-review-topic-modeling/data/管理类课程评论.xlsx
+03_research/teaching-reform-analysis/data/2021-2022-2评教统计明细.csv
+03_research/provincial-tourism-lda/四川天府旅游命名县（2021年修订）.docx
+03_research/provincial-tourism-lda/docs/
